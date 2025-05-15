@@ -1,6 +1,15 @@
 spring:
-  application:
-    name: yu-ai-agent
+#  application:
+#    name: agent-romance
+    application:
+      name: spring-ai-alibaba-qwq-chat-client-example
+    ai:
+      dashscope:
+        api-key: ${AI_DASHSCOPE_API_KEY}
+        chat:
+          options:
+            model: qwen-plus
+
 server:
   port: 8123
   servlet:
